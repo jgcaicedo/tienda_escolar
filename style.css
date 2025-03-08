@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+
+header{
+    background: chocolate;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.Productos{
+    display: flex;
+    justify-content: center;
+    gap: 20;
+    flex-wrap: wrap;
+}
+
+.producto{
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button{
+    background: cadetblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
